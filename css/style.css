@@ -1,0 +1,69 @@
+.container {
+  height: 96px;
+  flex-shrink: 0;
+  background: #fb86bb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.headerName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.bookIcon {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
+
+.headerNameText {
+  color: #000000;
+  font-family: "Copperplate Gothic Light";
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.headerTab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+}
+
+.tabTexts {
+  color: #000000;
+  font-family: "Copperplate Gothic Light";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+}
+
+@media screen and (max-width: 1800px) {
+  .headerIcons {
+    display: none;
+  }
+}
+
+.headerIcons {
+  display: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+}
+
+.headerIcons {
+  display: block;
+}
